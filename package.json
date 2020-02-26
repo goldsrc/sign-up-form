@@ -1,0 +1,16 @@
+{
+  "name": "day3",
+  "version": "0.1.0",
+  "description": "sign up form day3",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "normalize.css": "^8.0.1",
+    "shabnam-font": "^5.0.0"
+  }
+}

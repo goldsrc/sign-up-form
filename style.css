@@ -1,0 +1,82 @@
+body{
+  font-family: 'shabnam';
+}
+.img-logo{
+  background-color: whitesmoke;
+  display: inline;
+  margin: auto 1% auto 0;
+}
+nav{
+  background-color: hsl(208, 98%, 31%);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 70px;
+}
+ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: hsl(194, 70%, 72%);
+}
+.fa-bars{
+  margin: auto 0 auto 1%;
+}
+.right-side{
+  background-color: hsl(0, 0%, 86%);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.take-half{
+  width: 50vw;
+  height: 100%;
+}
+.left-side{
+  background-color: hsl(0, 0%, 96%);
+}
+main{
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 90px);
+}
+.boxes-container{
+  color: hsl(0, 100%, 99%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.yellow{
+  background-color: hsl(54, 100%, 50%);
+}
+.green{
+  background-color: hsl(118, 100%, 37%);
+}
+.blue{
+  background-color: hsl(179, 91%, 51%);
+}
+.red{
+  background-color: hsl(1, 100%, 45%);
+}
+.box{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
