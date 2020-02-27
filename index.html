@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.png" type="image/png" />
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" />
     <link
       href="https://fonts.googleapis.com/css?family=B612&display=swap"
@@ -44,23 +45,48 @@
           </thead>
           <tbody></tbody>
         </table>
+        <form action="/index.html" method="post">
+          <div class="form-group field">
+            <input
+              type="text"
+              class="form-field"
+              placeholder="Username"
+              name="username"
+              id="username"
+              required
+            />
+            <label for="name" class="form-label">نام کاربری</label>
+          </div>
+          <div class="form-group field">
+            <input
+              type="password"
+              class="form-field"
+              placeholder="Password"
+              name="password"
+              id="password"
+              required
+            />
+            <label for="name" class="form-label">رمز عبور</label>
+          </div>
+          <button>Submit</button>
+        </form>
       </div>
       <div class="left-side take-half">
         <div class="logo-container">
           <img class="logo-big" src="logo.png" alt="logo" />
         </div>
         <div class="boxes-container">
-          <div class="yellow box">
-            <p>yellow</p>
-          </div>
-          <div class="green box">
-            <p>green</p>
+          <div class="red box">
+            <p>red</p>
           </div>
           <div class="blue box">
             <p>blue</p>
           </div>
-          <div class="red box">
-            <p>red</p>
+          <div class="green box">
+            <p>green</p>
+          </div>
+          <div class="yellow box">
+            <p>yellow</p>
           </div>
         </div>
       </div>
