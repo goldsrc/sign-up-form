@@ -1,12 +1,12 @@
-body{
-  font-family: 'shabnam';
+body {
+  font-family: "B612", "shabnam";
 }
-.img-logo{
+.img-logo {
   background-color: whitesmoke;
   display: inline;
   margin: auto 1% auto 0;
 }
-nav{
+nav {
   background-color: hsl(208, 98%, 31%);
   display: flex;
   justify-content: space-between;
@@ -35,48 +35,99 @@ li a {
 li a:hover {
   background-color: hsl(194, 70%, 72%);
 }
-.fa-bars{
+.fa-bars {
   margin: auto 0 auto 1%;
 }
-.right-side{
+.left-side {
   background-color: hsl(0, 0%, 86%);
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
-.take-half{
+.take-half {
+  display: flex;
+  flex-direction: column;
   width: 50vw;
   height: 100%;
+  justify-content: space-evenly;
 }
-.left-side{
+.right-side {
   background-color: hsl(0, 0%, 96%);
 }
-main{
+main {
+  position: absolute;
   display: flex;
   flex-direction: row;
   height: calc(100vh - 90px);
 }
-.boxes-container{
+.boxes-container {
   color: hsl(0, 100%, 99%);
+  position: relative;
   display: flex;
+  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-.yellow{
+.yellow {
   background-color: hsl(54, 100%, 50%);
 }
-.green{
+.green {
   background-color: hsl(118, 100%, 37%);
 }
-.blue{
+.blue {
   background-color: hsl(179, 91%, 51%);
 }
-.red{
+.red {
   background-color: hsl(1, 100%, 45%);
 }
-.box{
+.yellow > p {
+  background-color: hsl(54, 90%, 40%);
+}
+.green > p {
+  background-color: hsl(118, 90%, 27%);
+}
+.blue > p {
+  background-color: hsl(179, 81%, 41%);
+}
+.red > p {
+  background-color: hsl(1, 90%, 35%);
+}
+.box {
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
   height: 50px;
   width: 50px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box > p {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 100%;
+}
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo-big {
+  height: 240px;
+  width: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 96%;
+  margin: 2%;
+}
+td,
+th {
+  border: 1px solid hsl(0, 0%, 87%);
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: hsl(0, 0%, 87%);
 }
