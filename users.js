@@ -12,7 +12,14 @@ const tbodyHTML = users
     <td>${user.name}</td>
     <td>${user.username}</td>
     <td style="text-align: center;">${user.bd}</td>
-  </tr>`
+    <td>
+      <div style="text-align:center;margin:auto;">
+        <button class="fa fa-edit fa-button"></button>
+        <button class="fa fa-trash fa-button"></button>
+      </div>
+    </td>
+  </tr>
+  `
   )
   .join('');
 const tbody = document.querySelector('tbody');

@@ -221,3 +221,9 @@ form {
   justify-content: space-around;
   align-items: center;
 }
+.fa-button {
+  font-size: 10px;
+  margin: 1px;
+  height: 30px;
+  width: 30px;
+}
