@@ -135,7 +135,6 @@ tr:nth-child(even) {
 .form-group {
   position: relative;
   padding: 15px 0 0;
-  margin: auto;
   width: 50%;
 }
 
@@ -226,4 +225,35 @@ form {
   margin: 1px;
   height: 30px;
   width: 30px;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  table {
+    margin: 0;
+  }
+  .take-half {
+    width: 100vw;
+    height: 100vh;
+  }
+  main {
+    top: 60px;
+    position: absolute;
+    flex-direction: column;
+    height: auto;
+  }
 }
